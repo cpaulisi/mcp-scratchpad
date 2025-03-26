@@ -1,0 +1,3 @@
+csharp-sdk/
+*.env
+*appsettings.json
