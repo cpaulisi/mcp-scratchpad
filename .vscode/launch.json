@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Python Debugger: MCP Sequential Thinking",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "mcp-client/client.py",
+            "console": "integratedTerminal",
+            "args": ["mcp/sequentialthinking"]
+        }, 
+        {
+            "name": "Python Debugger: MCP Time",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "mcp-client/client.py",
+            "console": "integratedTerminal",
+            "args": ["mcp/time"]
+        }, 
+        {
+            "name": "Python Debugger: MCP Fetch",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "mcp-client/client.py",
+            "console": "integratedTerminal",
+            "args": ["mcp/fetch"]
+        }
+    ]
+}
